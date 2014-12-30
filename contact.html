@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>GameFit</title>
+    <!-- Bootstrap Core CSS-->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" media="screen">
+    <!-- Flat-UI -->
+    <link rel="stylesheet" href="lib/flat-ui/css/flat-ui.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fonts/opensans_light/stylesheet.css" media="all" type="text/css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-embossed navbar-fixed-top" data-role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" data-aria-expanded="false" data-aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar">-</span>
+                    <span class="icon-bar">-</span>
+                    <span class="icon-bar">-</span>
+                </button>
+                <a class="navbar-brand" href="index.html">GameFit</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="documentation.html">Documentation</a></li>
+                    <li class="active"><a href="#">Contact</a></li>
+                </ul>
+                <a href="demo.html" class="btn btn-info navbar-btn navbar-right btn-embossed" role="button">Login</a>
+            </div>
+        </div>
+    </nav> <!-- /.navbar -->
+
+    <!-- Header -->
+    <header class="jumbotron">
+        <div class="container">
+            <h1>Our Team!</h1>
+        </div>
+    </header> <!-- /.header -->
+
+    <!-- Team members -->
+    <section class="container marketing">
+        <div class="row">
+            <div class="col-md-4">
+                <img class="img-circle" src="images/danny.jpg" alt="" style="width: 140px; height: 140px;">
+                <h2 class="contact-name">Danny Cantwell</h2>
+                <p>USC - Computer Science</p>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <img class="img-circle" src="images/silva.jpg" alt="" style="width: 140px; height: 140px;">
+                <h2 class="contact-name">Daniel<br> Silva</h2>
+                <p>USC - Computer Engineering<br> and Computer Science</p>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <img class="img-circle" src="images/kabir.jpg" alt="" style="width: 140px; height: 140px;">
+                <h2 class="contact-name">Kabir<br> Gupta</h2>
+                <p>USC - Computer Science</p>
+            </div><!-- /.col-md-4 -->
+        </div><!-- /.row -->
+        <p><a class="btn btn-info btn-lg btn-embossed scrollto contact-button" href="#InputName" data-role="button">Get in Touch <i class="fa fa-level-down"></i></a></p>
+    </section> <!-- /.marketing -->
+
+    <!-- Contact -->
+    <section id="contact" class="container contact-container">
+        <div class="row contact-row" style="text-align:left">
+            <div class="col-lg-6">
+                <h2 class="featurette-heading">Contact Us</h2>
+                <p class="lead"><span class="contact-header">Phone</span>
+                    <br><i class="fa fa-phone"></i> (213)-745-9441</p>
+                <p class="lead"><span class="contact-header">Email</span>
+                    <br><i class="fa fa-envelope"></i> info@gamefit.io </p>
+                <p class="lead">Located at Sigma Phi Delta @ USC</p>
+            </div>
+            <div class="col-lg-6">
+                <h2 class="featurette-heading">Drop us a line:</h2>
+                <form data-role="form" action="">
+                    <div class="form-group">
+                        <label for="InputName">Name</label>
+                        <input type="text" class="form-control" name="InputName" id="InputName" placeholder="" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="InputEmail">Email</label>
+                        <input type="email" class="form-control" name="InputEmail" id="InputEmail" placeholder="" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="InputCompany">Company/Organization</label>
+                        <input type="text" class="form-control" name="InputCompany" id="InputCompany" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="InputMessage">Message</label>
+                        <textarea name="InputMessage" id="InputMessage" rows="5" class="form-control" placeholder="Tell me more about GameFit!" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-info btn-embossed btn-lg pull-left">Submit <i class="fa fa-paper-plane-o"></i></button>
+                </form>
+            </div> <!-- /.col-lg-6 -->
+        </div> <!-- /.contact-row -->
+    </section> <!-- /.contact-container -->
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.scrollto.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

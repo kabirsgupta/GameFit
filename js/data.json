@@ -1,0 +1,114 @@
+[
+	{ 
+		"id": 1,
+		"first": "Daniel", 
+		"last": "Cantwell",
+		 "Age": 21,
+		 "Weight": 150, 
+		 "Height": "5'6",
+		 "activity":[
+		 	{
+		 		"runId": 1,
+		 		"date": "12/13/14",
+		 		"runDistance": 6,
+		 		"runTime": 35
+		 	},
+		 	{
+		 		"runId": 2,
+		 		"date": "12/14/14",
+		 		"runDistance": 6,
+		 		"runTime": 36
+		 	},
+		 	{
+		 		"runId": 3,
+		 		"date": "12/15/14",
+		 		"runDistance": 6,
+		 		"runTime": 37
+		 	}
+		 ] 
+	},
+	{ 
+		"id": 3,
+		"first": "Usain", 
+		"last": "Bolt",
+		 "Age": 21,
+		 "Weight": 207,
+		 "Height": "6'5",
+		 "activity":[
+		 	{
+		 		"runId": 1,
+		 		"date": "11/13/14",
+		 		"runDistance": 10,
+		 		"runTime": 40
+		 	},
+		 	{
+		 		"runId": 2,
+		 		"date": "11/14/14",
+		 		"runDistance": 10,
+		 		"runTime": 40
+		 	},
+		 	{
+		 		"runId": 1,
+		 		"date": "11/15/14",
+		 		"runDistance": 10,
+		 		"runTime": 40
+		 	}
+		 ] 
+	},
+	{ 
+		"id": 4,
+		"first": "Kabir", 
+		"last": "Gupta",
+		 "Age": 22,
+		 "Weight": 180,
+		 "Height": "6'0",
+		 "activity":[
+		 	{
+		 		"runId": 1,
+		 		"date": "12/13/14",
+		 		"runDistance": 6,
+		 		"runTime": 35
+		 	},
+		 	{
+		 		"runId": 2,
+		 		"date": "12/14/14",
+		 		"runDistance": 6,
+		 		"runTime": 34
+		 	},
+		 	{
+		 		"runId": 1,
+		 		"date": "12/15/14",
+		 		"runDistance": 6,
+		 		"runTime": 33
+		 	}
+		 ] 
+	},
+	{ 
+		"id": 2,
+		"first": "Daniel", 
+		"last": "Silva",
+		 "Age": 22,
+		 "Weight": 210,
+		 "Height": "6'0", 
+		 "activity":[
+		 	{
+		 		"runId": 1,
+		 		"date": "12/13/14",
+		 		"runDistance": 1,
+		 		"runTime": 20
+		 	},
+		 	{
+		 		"runId": 2,
+		 		"date": "12/14/14",
+		 		"runDistance": 1,
+		 		"runTime": 19
+		 	},
+		 	{
+		 		"runId": 1,
+		 		"date": "12/15/14",
+		 		"runDistance": 1,
+		 		"runTime": 18
+		 	}
+		 ] 
+	}
+]

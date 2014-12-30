@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>GameFit</title>
+    <!-- Bootstrap Core CSS-->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/simple-sidebar.css">
+    <!-- Flat-UI -->
+    <link rel="stylesheet" href="lib/flat-ui/css/flat-ui.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="css/fonts/opensans_light/stylesheet.css" media="all" type="text/css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/docs.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-embossed navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar">-</span>
+                    <span class="icon-bar">-</span>
+                    <span class="icon-bar">-</span>
+                </button>
+                <a class="navbar-brand" href="index.html">GameFit</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="#">Documentation</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="demo.html" class="btn btn-info navbar-btn navbar-right btn-embossed" role="button">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#" onclick="updateContent('overview')">Overview</a></li>
+                <li><a href="#" onclick="updateContent('getting-started')">Getting Started</a></li>
+                <li><a href="#" onclick="updateContent('reference')">Reference</a></li>
+                <li><a href="#" onclick="updateContent('demo')">Demo</a></li>
+            </ul>
+        </div> <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            Welcome to the documentation
+            <p>Our API is currently being optimized to be awesome, so for now please checkout our demo!</p>
+        </div> <!-- /#page-content-wrapper -->
+    </div>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/docs.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.marketing{
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.marketing .col-md-7 {
+	text-align: left;
+}
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}
