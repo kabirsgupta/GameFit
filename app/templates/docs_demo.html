@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="css/docs_demo.css">
+<section class="main container">
+	<div>
+		<div>
+			<select data-ng-model="currUser" data-ng-options="user.last for user in users" class="form-control select select-info select-block mbl">
+				<option value="" data-ng-hide="currUser">Select User</option>
+			</select>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<h2 class="featurette-heading">Raw Data<br><p class="lead text-muted">From your past runs</p></h2>
+				<table class="table">
+					<tbody>
+						<tr>
+							<td>Name</td>
+							<td>{{currUser.first}} {{currUser.last}}</td>
+						</tr>
+						<tr>
+							<td>Age</td>
+							<td>{{currUser.Age}}</td>
+						</tr>
+						<tr>
+							<td>Weight</td>
+							<td>{{currUser.Weight}}</td>
+						</tr>
+						<tr>
+							<td>Height</td>
+							<td>{{currUser.Height}}</td>
+						</tr>
+						</tr>
+						<tr data-ng-repeat="activity in currUser.activity">
+							<td>{{activity.date}}</td>
+							<td>
+								<p>{{activity.runDistance}} mi | {{activity.runTime}} min</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="col-md-6">
+				<h2 class="featurette-heading">Summary<br><p class="lead text-muted">Generated based on your stats</p></h2>
+				<p class="score">FitScore: {{fitScore}}%</p>
+				<p class="score">FitPoints: {{fitPoints}}/400</p>
+				<canvas id="myCanvas" width="300" height="300"></canvas>
+			</div>
+		</div>
+		</div> <!-- /gamefitController -->
+</section>
